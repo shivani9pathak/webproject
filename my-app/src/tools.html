@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Budget Tracker</title>
+    <link rel="stylesheet" href="tools.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Budget Tracker</h1>
+
+        <section id="income">
+            <h2>Income</h2>
+            <ul id="incomeList"
+            </ul>
+            <button onclick="addIncome()">Add More Income</button>
+            <p id="totalIncome">Total Income: <span id="incomeValue">0</span></p>
+        </section>
+      <section id="expenses">
+            <h2>Expenses</h2>
+            <ul id="expenseList">
+            </ul>
+            <button onclick="addExpense()">Add More Expenses</button>
+            <p id="totalExpenses">Total Expenses: <span id="expenseValue">0</span></p>
+        </section>
+
+        <section id="summary">
+            <h2>Summary</h2>
+            <p>Total Income - Total Expenses = Available Balance</p>
+            <p id="balance">Balance: <span id="balanceValue">0</span></p>
+        </section>
+    </div>
+
+    <script src="tools.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+/* Basic Styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #FBF3D5;
+    padding: 1rem;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+    margin-right: 1rem;
+    font-weight: bold;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 2rem;
+    background-image: url("hero-image.jpg"); /* Replace with your image path */
+    background-size: cover;
+  background-position: center;
+  color: #D6DAC8; /* Adjust text color for visibility on image */
+}
+
+.hero h1 {
+  font-size: 2em;
+  margin-bottom: 1rem;
+}
+
+.hero button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.overview {
+  padding: 2rem;
+}
+
+.overview h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .overview ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .overview li {
+    margin-bottom: 1rem;
+  }
+  .header-container h1 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif; /* Or your preferred font family */
+    font-weight: bold;
+    color: #1c6cb4; /* Example blue color, adjust as needed */
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.2); /* Optional text shadow */
+    
+  }
+  
+  .header-container img {
+    margin-right: 0px;
+  }
+  .top-left-image{
+    position: absolute;
+    top:0;
+    left: 0;
+
+  }
+  .campus-coin-heading {
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: bold;
+    color: #333; /* Example blue color, adjust as needed */
+  }
+  
+    
